@@ -1,0 +1,4 @@
+
+Para poder utilizar libsslw.so con mono en windows, antes hay que eliminar
+el archivo c:\mono path\bin\libeay32.dll.
+De otra forma mono es incapaz de realizar los pinvokes.

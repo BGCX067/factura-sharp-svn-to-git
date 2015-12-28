@@ -1,0 +1,44 @@
+
+Autor: Jonatan Anauati.
+Email: barakawins@gmail.com
+Licencia: MIT/X11.
+Este directorio consta de esfuerzo por dar soporte para firmas digitales a 
+mono.
+
+El codigo tiene como finalidad generar una libreria:
+	- archivo "so" en linux.
+	- archivo "dll" en windows.
+	- archivo "dylib" en mac.
+que de soporte a las operaciones basicas de firma digital, ya que en mono por
+ahora no estan implementadas 100 %.
+
+El codigo esta escrito en lenguaje C, y ademas aprovecha las funciones de 
+openssl.
+
+Los requerimientos basicos serian: 
+	Linux:
+	- make.
+	- gcc.
+	- 0.9.8i.*
+	Windows:
+	- visual studio 2006.
+	Mac:
+	- TODO.
+Notas:
+*. si funciona con una version anterior hacermelo notar para asi­ lo pongo en 
+esta documentacion.
+
+ACLARACION: en este directorio se incluye una version de OpenSSL ya compilada
+y lista para enlazar con este proyecto. La licencia de OpenSSL esta¡ en ese
+directorio mismo: OpenSSLBuild_W32.
+
+Para compilar:
+- En linux:
+	- type make
+- En windows:
+	- Antes de construir hay que agregar el directorio que contiene a cl.exe
+	en el Path.
+	- type build
+- En mac:
+	TODO
+

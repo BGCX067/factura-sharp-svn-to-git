@@ -1,0 +1,13 @@
+./FacturaSharp.L10N.Chile.Documentos/DocumentoTributario.cs
+./FacturaSharp.L10N.Chile.Documentos/LiquidacionFactura.cs
+./FacturaSharp.L10N.Chile.Documentos/NotaDebitoExportacion.cs
+./FacturaSharp.L10N.Chile.Documentos/FacturaCompra.cs
+./FacturaSharp.L10N.Chile.Documentos/Factura.cs
+./FacturaSharp.L10N.Chile.Documentos/TipoDocumentoTributario.cs
+./FacturaSharp.L10N.Chile.Documentos/FacturaExportacion.cs
+./FacturaSharp.L10N.Chile.Documentos/EncabezadoDocumentoTributario.cs
+./FacturaSharp.L10N.Chile.Documentos/GuiaDespacho.cs
+./FacturaSharp.L10N.Chile.Documentos/NotaCreditoExportacion.cs
+./FacturaSharp.L10N.Chile.Documentos/NotaDebito.cs
+./FacturaSharp.L10N.Chile.Documentos/NotaCredito.cs
+./FacturaSharp.L10N.Chile.Documentos/FacturaExenta.cs
